@@ -1,0 +1,40 @@
+.home-body{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.home-text{
+    margin: 2rem 0 3rem 0;
+}
+
+.home-text h1{
+    font-size: 3em;
+    line-height: 50px;
+    margin-bottom: 1rem;
+    color: rgb(34, 30, 30);
+}
+
+.home-text p{
+    font-size: 1.5em;
+    line-height: 50px;
+    color: rgb(34, 30, 30);
+}
+
+.home-image{
+    width: 500px;
+    height: 500px;
+}
+
+.home-image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.signup-user{
+    margin-bottom: 3rem;
+    text-align: right;
+}

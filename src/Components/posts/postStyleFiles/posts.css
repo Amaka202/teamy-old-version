@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(207, 199, 199);
+}
+
+.make-post-div{
+    width: 25em;
+    border: 0.1px solid rgb(224, 220, 220);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    font-size: 0.9em;
+    color: black;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: #fbfeff;
+}
+
+#make-post{
+    font-size: 1.2em;
+}
+.gif-div img{
+    height: 3em;
+    width: 3em;
+    border-radius: 5px;
+}
+
+.post-container{
+    padding: 5% 20%;
+}
+
+.post{
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.pic-name-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-flex{
+    width: 30%;
+}
+
+.post-img-div{
+    text-align: center;
+    padding: 3px;
+    margin-right: 2rem;
+}
+
+.post-img-div img{
+    width: 4em;
+    height: 4em;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.name-article-div{
+    width: 70%;
+}
+
+.name-div{
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.name-div span{
+    margin-left: 1rem;
+    font-size: 0.7em;
+    font-weight: 100;
+}
+
+.article h3{
+    font-size: 0.9em;
+}
+
+.article p{
+    font-size: 0.8em;
+}
+
+.del-comm-div{
+    display: flex;
+    margin-top: 1em;
+}
+
+.del-comm-div p{
+    cursor: pointer;
+    margin-right: 3em;
+}
+
+

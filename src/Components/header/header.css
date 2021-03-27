@@ -1,0 +1,53 @@
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 2rem;
+}
+
+.nav-container ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-container ul li{
+  list-style: none;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-size: 1.1em;
+  color: rgb(34, 30, 30);
+
+}
+
+.link-class{
+  color: rgb(112, 79, 79);
+}
+
+.nav-container img{
+  width: 1.7em;
+  border-radius: 50%;
+}
+
+.nav-container .active{
+  border-bottom: 4px solid #68E1FD;
+  /* font-weight: bold; */
+}
+
+.logo-container{
+  display: flex;
+  color: red;
+  margin-top: -5px;
+}
+
+.logo-container p{
+  padding-top: 0;
+  font-size: 1.5em;
+  background: -webkit-linear-gradient(rgb(226, 20, 20),#68E1FD,#697072);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo-container svg>path{
+  fill:#68E1FD;
+}
+
